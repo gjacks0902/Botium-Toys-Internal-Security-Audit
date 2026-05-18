@@ -229,8 +229,39 @@ The IT manager starts by implementing the National Institute of Standards and Te
   </ul>
   
   <h2 id="stake">Stakeholder Memorandum</h2>
+  <p>TO: IT Manager, Stakeholders</p>
+  <p>
+    FROM: Gracie Jackson<br>
+    DATE: 05/17/2026<br>
+    SUBJECT: Internal IT Audit Findings and Recommendations
+  </p>
+  <p>Dear Colleagues,</p>
+  <p>Please review the following information regarding the Botium Toys internal audit scope, goals, findings, summary, and further recommendations.</p><br>
   
+  <p><strong>Scope:</strong></p>
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
   
+  <p><strong>Goals:</strong></p>
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+  <p><strong>Findings</strong></p>
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+
+  <p><strong>Summary/Recommendations:</strong></p>
+  <p></p>
   
   <h2 id="con">Conclusion</h2>
 

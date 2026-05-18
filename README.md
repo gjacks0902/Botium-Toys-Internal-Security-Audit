@@ -45,13 +45,188 @@ The IT manager starts by implementing the National Institute of Standards and Te
   <p>The potential impact from the loss of an asset is rated as medium, because the IT department does not know which assets would be at risk. The risk to assets or fines from governing bodies is high because Botium Toys does not have all of the necessary controls in place and is not fully adhering to best practices related to compliance regulations that keep critical data private/secure.</p>
   
   <h2 id="control">Controls Assessment</h2>
-    <h3>Admisistrative Controls</h3>
-    <h3>Technical Controls</h3>
-    <h3>Physical Controls</h3>
+  <h3>Admisistrative Controls</h3>
+    <table>
+    <thead>
+      <tr>
+      <th>Control Name</th>
+      <th>Control type and explanation</th>
+      <th>Needs to be implemented (X)</th>
+      <th>Priority</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Least Privilege</td>
+        <td>Preventative; reduces risk by making sure vendors and non-authorized staff only have access to the assets/data they need to do their jobs</td>
+        <td>X</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>Disaster recovery plans</td>
+        <td>Corrective; business continuity to ensure systems are able to run in the event of an incident</td>
+        <td>X</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>Password policies</td>
+        <td>Preventative; establish password strength rules to improve security/reduce likelihood of account compromise</td>
+        <td>X</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>Access control policies</td>
+        <td>Preventative; increase confidentiality and integrity of data</td>
+        <td>X</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>Account management policies</td>
+        <td>Preventative; reduce attack surface and limit overall impact from former employees</td>
+        <td>X</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>Separation of duties</td>
+        <td>Preventative; ensure no one has too much access, so that they can't abuse the system</td>
+        <td>X</td>
+        <td>High</td>
+      </tr>
+    </tbody>
+    </table>
+    
+<h3>Technical Controls</h3>
+  <table>
+    <thead>
+    <tr>
+      <th>Control Name</th>
+      <th>Control type and explanation</th>
+      <th>Needs to be implemented (X)</th>
+      <th>Priority</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Firewall</td>
+      <td>Preventative; firewalls are already in place to filter malicious traffic from entering</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <td>Intrusion Detection System (IDS)</td>
+      <td>Detective; allows IT team to identify possible intrusion quickly</td>
+      <td>X</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Encryption</td>
+      <td>Deterrent; makes confidential information more secure (e.g., payment, social security numbers)</td>
+      <td>X</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Backups</td>
+      <td>Corrective; allows for a disaster recovery plan; the ability to restore/recover from an event</td>
+      <td>X</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Password management system</td>
+      <td>Preventative; password recovery and reset</td>
+      <td>X</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Antivirus (AV) software</td>
+      <td>Preventative; detect and quarantine known threats</td>
+      <td>X</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Manual monitoring, maintenance, and intervention</td>
+      <td>Preventative; required to identify and mitigate potential threats, risks, and vulnerabilities</td>
+      <td>X</td>
+      <td>High</td>
+    </tr>
+    </tbody>
+  </table>
+    
+<h3>Physical Controls</h3>
+  <table>
+    <thead>
+    <tr>
+      <th>Control Name</th>
+      <th>Control type and explanation</th>
+      <th>Needs to be implemented (X)</th>
+      <th>Priority</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Time-controlled safe</td>
+      <td>Deterrent; reduce attack surface/impact of physical threats</td>
+      <td>X</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Adequate lighting</td>
+      <td>Deterrent; limit “hiding” places to deter threats</td>
+      <td>X</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Closed-circuit television (CCTV) surveillance</td>
+      <td>Preventative/detective; can reduce risk of certain events; can be used after event for investigation</td>
+      <td>X</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Locking cabinets (for network gear)</td>
+      <td>Preventative; increase integrity by preventing unauthorized personnel from physically accessing/modifying network infrastructure gear</td>
+      <td>X</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Signage indicating alarm service provider</td>
+      <td>Deterrent; makes the likelihood of a successful attack seem low</td>
+      <td>X</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Locks</td>
+      <td>Deterrent/Preventative; physical and digital assets are more secure</td>
+      <td>X</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Fire detection and prevention (fire alarm, sprinkler system, etc.)</td>
+      <td>Detective/Preventative; detect fire in the toy store’s physical location to prevent damage to inventory, servers, etc.</td>
+      <td>X</td>
+      <td>Medium</td>
+    </tr>
+    </tbody>
+  </table>
   
   <h2 id="comp">Compliance Checklist</h2>
-  
-  
+  <ul>
+    <li>General Data Protection Regulation (GDPR)</li>
+    <ul>
+      <li>The GDPR is a European Union (EU) general data regulation that protects the processing of EU citizens' data and their right to privacy in and out of EU territory. Additionally, if a breach occurs and a EU citizen's data is compromised, they must be informed within 72 hours of the incident.</li>
+      <ol>
+        <li>Botium Toys has been growing greatly and they want to expand their services to a global scale. Therefore, they need to ensure they're GDPR compliance is in the correct scope for accounting for the sensitive personal information for the EU.</li>
+      </ol>
+    </ul>
+  </ul>
+
+  <ul>
+    <li>Payment Card Industry Data Security Standard (PCI DSS)</li>
+    <ul>
+      <li>PCI DSS is an international security standard meant to ensure that organizations storing, accepting, processing, and transmitting credit card information do so in a secure enviornment.</li>
+      <ol>
+        <li>The company needs to be able to protect their customers becasue of the online payments they accept. They must follow PCI DSS becuase they also now are accepting payments globally. Becuase of this they need to follow the requirements and compliance necessary, in order to avoid the serious consequences. Like data breaches, damaged reputations, and possible lawsuits.</li>
+      </ol>
+    </ul>
+  </ul>
   
   <h2 id="stake">Stakeholder Memorandum</h2>
   

@@ -240,29 +240,48 @@ The IT manager starts by implementing the National Institute of Standards and Te
   
   <p><strong>Scope:</strong></p>
   <ul>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>These systems are currently in scope: security  information and event mangagement (SIEM) tool, firewalls, intrusion detection system (IDS), and accounting.</li>
+    <li>Ensure current users permissions, controls, procedures, and protocols align with PCI DSS and GDPR requirements.</li>
+    <li>Ensure current technology is accounted for both hardware and system access.</li>
   </ul>
   
   <p><strong>Goals:</strong></p>
   <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Adhere to NIST CSF.</li>
+    <li>Establish a better process for the systems to ensure they're compliant.</li>
+    <li>Strengthen system controls.</li>
+    <li>Tailor to the concept of giving users the least permissions when it comes to user credential management.</li>
+    <li>Ensure they're meeting all compliance requirements.</li>
+    <li>Establish their policies and procedures, including playbooks.</li>
   </ul>
 
   <p><strong>Findings</strong></p>
   <ul>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Policies need to be created and implemented to meet PCI DSS and GDPR requirements.</li>
+    <li>Multiple controls need to be implemented to meet audit goals:</li>
+    <ul>
+      <li>Disaster recovery plans</li>
+      <li>Encryption for website transactions</li>
+      <li>IDS</li>
+      <li>CCTV</li>
+      <li>Backups</li>
+      <li>Locks</li>
+      <li>AV software</li>
+      <li>Locks</li>
+    </ul>
+    <li>The following should be integrated when possible:</li>
+    <ul>
+      <li>Time-controlled safe</li>
+      <li>Proper lighting</li>
+      <li>Locking cabinets</li>
+      <li>Signs indicating alarm service provider</li>
+    </ul>
+    <li>Policies need to be developed and implemented to align to SOC1 and SOC2.</li>
   </ul>
 
   <p><strong>Summary/Recommendations:</strong></p>
-  <p></p>
+  <p>It's highly advised that the critical findings in relation to the compliance with PCI DSS and GDPR be addressed as soon as possible. Since Botium Toys now accepts online payments from consumers worldwide, which includes the E.U. On account of one of the goals of the internal audit being adaptation to a concept of least permissions. Therefore, SOC1 and SOC2 guidelines being implemented would improve overall data safety and develop appropriate policies. Integrating an IDS and a AV software will help aid in the identification and mitgation of potential risks. As well as, developing recovery plans and backups to help with business continuity in the case of an event.</p>
+  <p>To secure the physical location of Botium Toys, we'd need locks and CCTV in order increase the overall security and monitor potential threats. Some other security controls that would be necessary to implement, however not critically needed at the moment. For example, adding encryption and time-controlled safe, better lighting, and locking cabinets.</p>
   
   <h2 id="con">Conclusion</h2>
-
-
+  <p><strong>Self-Evaluation:</strong> I think I did pretty well in my internal security audit. I enjoyed being able to identify what Botium Toys needs to be implemented as soon as possible and what would be good to implement but it's not a top priority. I also believe I did pretty well identifying what needs to be put in place in order to meet guidelines and regulations. However, I feel I struggled with some of the wording in both the Controls Assessment and the stakeholder's memorandum. Other than that, I really liked learning about about internal security audits and learning in a hands-on approach.</p>
